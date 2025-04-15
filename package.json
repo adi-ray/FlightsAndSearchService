@@ -1,0 +1,21 @@
+{
+  "name": "flightsandsearch",
+  "version": "1.0.0",
+  "description": "Micro service for handling FLIGHT CRUD",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx nodemon src/index"
+  },
+  "author": "Aditya Ray",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "flightsandsearch": "file:",
+    "mysql2": "^3.14.0",
+    "nodemon": "^3.1.9",
+    "sequelize": "^6.37.7",
+    "sequelize-cli": "^6.6.2"
+  }
+}
