@@ -8,4 +8,4 @@ class AirportService extends CrudService {
   }
 }
 
-module.exports = CrudService;
+module.exports = AirportService;
